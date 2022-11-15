@@ -1,0 +1,42 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/Bypassers/SilentAimBypass.txt",true))() -- Bypass
+
+--// UPDATED: November, 14 2022.
+--// CRACKED: November, 15 2022.
+
+--// Created By Nosssa & Atman Supports, Cracked by MooMoo & E6. Mostly supports all hood games
+
+--// Roblox Group ( + KIFFEDS + ): https://www.roblox.com/groups/11323129/TeamNosss#!/about
+
+-------------------------------------------------------------------------------------------------------------
+
+--00// Aim Configuration
+getgenv().ToggleKey =  (  "c"  )  -- [ Toggles On And Off | Stop asking HORRIBLE questions! ]
+getgenv().ResolverToggleKey =  (  "v"  )  -- [ Toggles RESOLVER LOCK On And Off ]
+getgenv().Auto_Prediction = false
+getgenv().Prediction =  (  .18  )   -- [ Lower Prediction: Lower Ping | Higher Prediction: Higher Ping | If you ask me "what pred is best" I will actually bite you ]
+getgenv().FOV =  (  250  )   -- [ Increases Or Decreases FOV Radius ]
+getgenv().Streaming_Mode = false -- [ On "true", it removes all evidences that point to silent aim automatically. ]
+getgenv().FOV_Visible = true -- [ True or False, same for below ]
+getgenv().Show_Dot = true -- [ Shows The Dot Or Disables It ]
+getgenv().IgnoreWalls = false -- [ True or False | TURN THIS TO "true" FOR "HOOD MODDED" IT WILL FIX THE STUPID NOT TOGGLING ISSUES ]
+getgenv().FIXCrossHair = true -- [ Doesn't have any functional usage anymore, issue has been resolved. ]
+
+--00// Team Configuration
+getgenv().DontShootMyFriends = true -- [ True or False | If this is on "true", when you toggle on to your friends it won't work ]
+getgenv().DontShootThesePeople = {  -- [ List Of Who Not To Target like this. "Quotations with their name and then a comma afterwards for each line"; ]
+
+	"Player1";
+	"Player2";
+	"Noob3";
+	"Roblox";
+	"You can go on and on forever";
+
+};
+
+
+--// These contain basic; "true or false" options. Spell everything right and don't make typos. Thanks and enjoy.
+
+
+task.wait(1) --// Render_Safety_Yield;
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/ReZero", true))();
