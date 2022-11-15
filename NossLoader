@@ -5,9 +5,9 @@ _G.Loader = "WinterTime" --// Choose between WinterTime or SilentAim
 
 --// Functions
 if _G.Loader == "WinterTime" then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/NossBypassed/WinterTime.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/NossScripts/WinterTime.txt"))()
 elseif _G.Loader == "SilentAim" then
-setclipboard(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/NossBypassed/WinterTime.txt"))
+setclipboard(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/NossScripts/ReZero.txt"))
 game.StarterGui:SetCore("SendNotification", {
 Title = "Script Copied!";
 Text = "Paste it at your Executor";
